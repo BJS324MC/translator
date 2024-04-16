@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="switch-languages.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.9775"
+     inkscape:cx="612.27621"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <g
+     id="g828"
+     transform="translate(3.5074889,-2.4552465)">
+    <path
+       d="M 2.6492511,16.402997 H 10.440265"
+       stroke="#323232"
+       stroke-width="1.2985"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path2"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="M 4.5970045,14.455244 2.705736,16.346512 v 0 c -0.031164,0.03116 -0.031164,0.08181 0,0.11297 v 0 l 1.8912685,1.891269"
+       stroke="#323232"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path6"
+       style="stroke:#ffffff;stroke-width:1.29851;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 6.5447579,12.50749 H 14.335771"
+       stroke="#323232"
+       stroke-width="1.2985"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path4"
+       style="stroke:#ffffff;stroke-opacity:1" />
+    <path
+       d="m 12.388018,10.559737 1.891243,1.891243 v 0 c 0.03121,0.03121 0.03121,0.08181 0,0.113021 v 0 l -1.891243,1.891243"
+       stroke="#323232"
+       stroke-width="1.2985"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path8"
+       style="stroke:#ffffff;stroke-opacity:1" />
+  </g>
+</svg>

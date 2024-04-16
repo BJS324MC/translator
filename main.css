@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("Product Sans Regular.ttf");
+}
+body {
+    background-color: rgb(139, 138, 246);
+    font-family: Product Sans;
+}
+.header { grid-area: header; }
+.input { grid-area: main; }
+.output { grid-area: right; }
+.language { grid-area: language; }
+.translation { grid-area: translation; }
+.switch { grid-area: switch; }
+.container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header header header header header'
+      'language language language language switch switch translation translation translation translation'
+      'main main main main main right right right right right';
+    grid-template-columns: 8% 8% 8% 8% 8% 8% 8% 8% 8% 8%;
+    gap: 20px;
+    padding: 40px;
+    min-width: 0;
+}
+.switch {
+    background-color: rgba(255, 255, 255, 0) !important;
+    padding: 0 !important;
+    text-align: center;
+    position: relative;
+}
+.switch > img{
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.translation{
+    background-color: rgb(237, 237, 237) !important;
+    text-align: right;
+}
+.input {
+    min-height: 200%;
+    font-size: 20pt !important;
+}
+.input:focus {
+    outline: none;
+}
+.output {
+    background-color: rgb(227, 227, 227) !important;
+    color: rgb(120, 120, 120);
+    min-height: 200%;
+    font-size: 20pt !important;
+    overflow-wrap: break-word;
+}
+.header {
+    text-align: center;
+    min-height: 0 !important;
+    color:white;
+    font-size: 40pt !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.container > div {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px 20px;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+#footer {
+    text-align: right;
+    position: fixed;
+    width:20%;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+}
+/*
+vocabulary = {
+    "A": "pier",
+    "B": "bu",
+    "C": "chi",
+    "D": "da",
+    "E": "er",
+    "F": "fu",
+    "G": "go",
+    "H": "ha",
+    "I": "mi",
+    "J": "ja",
+    "K": "zang",
+    "L": "lols",
+    "M": "mo",
+    "N": "ni",
+    "O": "oz",
+    "P": "pai",
+    "Q": "qur",
+    "R": "rawr",
+    "S": "su",
+    "T": "tsu",
+    "U": "um",
+    "V": "vy",
+    "W": "wei",
+    "X": "wai",
+    "Y": "yay",
+    "Z": "stri"
+}
+let definer = {};
+for(let o in vocabulary) {
+    let placeholder = definer; 
+    for (let letter of vocabulary[o].split("")){
+        if(!placeholder[letter]) placeholder[letter] = {}
+        placeholder = placeholder[letter]
+    }
+    placeholder["END"] = o.toLowerCase();
+}
+const translate = text => {
+    let translation = "";
+    for(let p of text.split("")) {
+        let v = vocabulary[p.toUpperCase()];
+        translation += v ? p.toUpperCase() === p ? v[0].toUpperCase() + v.slice(1) : v : p;
+    }
+    return translation;
+}
+
+const reverseTranslate = text => {
+    let translation = "",
+        sp = text.split(""),
+        placeholder = definer,
+        j = -1;
+    for (let i = 0; i < sp.length; i++){
+        if(placeholder[sp[i].toLowerCase()]) placeholder = placeholder[sp[i].toLowerCase()];
+        else {
+            if(placeholder["END"]){
+                translation += sp[j + 1].toUpperCase() == sp[j + 1] ? placeholder["END"].toUpperCase() : placeholder["END"];
+                i--;
+            }
+            else translation += text.slice(j + 1,i + 1);
+            j = i;
+            placeholder = definer;
+        }
+    }
+    if(placeholder["END"]) translation += sp[j + 1].toUpperCase() == sp[j + 1] ? placeholder["END"].toUpperCase() : placeholder["END"];
+    else translation += text.slice(j + 1,sp.length);
+    return translation;
+}
+*/
